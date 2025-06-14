@@ -8,9 +8,9 @@ import google.generativeai as genai
 import requests
 
 load_dotenv()
-genai.configure(api_key='AIzaSyAMU14HK0RwNFhSsEtIaqoBSOOxP1Y6l6Y')
+genai.configure(api_key='AIzaSyBUbRIjv6Y5nBen_Xd3S1Id4QifJaZsnus')
 model_ai = genai.GenerativeModel("gemini-pro")
-GEMINI_API_KEY = "AIzaSyAMU14HK0RwNFhSsEtIaqoBSOOxP1Y6l6Y"
+GEMINI_API_KEY = "AIzaSyBUbRIjv6Y5nBen_Xd3S1Id4QifJaZsnus"
 
 from sentence_transformers import SentenceTransformer
 
